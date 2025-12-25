@@ -114,4 +114,16 @@
 
 			});
 
+	// Accordion functionality
+	$('.accordion-header').on('click', function() {
+		var $item = $(this).parent();
+		var $allItems = $('.accordion-item');
+		
+		// Close all other items
+		$allItems.not($item).removeClass('active');
+		
+		// Toggle current item
+		$item.toggleClass('active');
+	});
+
 })(jQuery);

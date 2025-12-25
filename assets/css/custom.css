@@ -1,0 +1,248 @@
+/* Custom Styles - Carbon Black Theme */
+
+:root {
+    --carbon-black: #1a1a1a;
+    --carbon-dark: #0a0a0a;
+    --carbon-light: #2d2d2d;
+    --text-light: #f5f5f5;
+    --shadow-soft: 0 10px 40px rgba(26, 26, 26, 0.15);
+}
+
+/* Accordion Styles */
+.accordion-container {
+    max-width: 100%;
+}
+
+.accordion-item {
+    border-bottom: 1px solid rgba(26, 26, 26, 0.1);
+    margin-bottom: 0;
+}
+
+.accordion-header {
+    cursor: pointer;
+    padding: 1.5em 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--carbon-black);
+    transition: color 0.3s ease;
+    user-select: none;
+}
+
+.accordion-header:hover {
+    color: var(--carbon-light);
+}
+
+.accordion-icon {
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+    min-width: 30px;
+    text-align: center;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px;
+    padding-bottom: 1.5em;
+}
+
+.accordion-content ul {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+.accordion-content li {
+    margin-bottom: 0.75em;
+    line-height: 1.6;
+}
+
+/* Override teal colors with carbon black */
+.button.primary,
+#one header.major p,
+#metrics h3,
+.work-item p strong {
+    color: var(--carbon-black) !important;
+}
+
+.button.primary {
+    background-color: var(--carbon-black) !important;
+    border-color: var(--carbon-black) !important;
+    color: white !important;
+}
+
+.button.primary:hover {
+    background-color: var(--carbon-light) !important;
+    border-color: var(--carbon-light) !important;
+}
+
+/* Smaller icons */
+.icon.solid {
+    font-size: 1.5em !important;
+}
+
+/* ALTERNATIVE IMPACT METRICS DESIGN - Modern Card Layout */
+#metrics {
+    background: white;
+    padding: 3em 2em;
+    margin: 3em 0;
+}
+
+#metrics h2 {
+    text-align: left;
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
+    color: var(--carbon-black);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+#metrics .metric-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5em;
+}
+
+.metric-item {
+    padding: 0;
+    text-align: left;
+    background: transparent;
+    border: none;
+    border-left: 5px solid var(--carbon-black);
+    padding-left: 1.5em;
+    transition: border-color 0.3s ease, padding-left 0.3s ease;
+}
+
+.metric-item:nth-child(1) {
+    border-left-color: #1a1a1a;
+}
+
+.metric-item:nth-child(2) {
+    border-left-color: #2d2d2d;
+}
+
+.metric-item:nth-child(3) {
+    border-left-color: #1a1a1a;
+}
+
+.metric-item:nth-child(4) {
+    border-left-color: #2d2d2d;
+}
+
+.metric-item:nth-child(5) {
+    border-left-color: #1a1a1a;
+}
+
+.metric-item:hover {
+    padding-left: 2em;
+    border-left-color: #1a1a1a;
+    background: transparent;
+}
+
+.metric-number {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--carbon-black);
+    margin: 0 0 0.3em 0;
+    line-height: 1.1;
+}
+
+.metric-label {
+    font-size: 0.42em;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media screen and (max-width: 980px) {
+    #metrics .metric-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #metrics {
+        padding: 2em 1em;
+    }
+    
+    #metrics .metric-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+    }
+    
+    #metrics h2 {
+        font-size: 1.1em;
+    }
+    
+    .metric-number {
+        font-size: 1em;
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 980px) {
+    #metrics .metric-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .metric-item {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .metric-item:nth-child(odd) {
+        border-right: 1px solid #e0e0e0;
+    }
+    
+    .metric-item:last-child {
+        grid-column: 1 / -1;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #metrics {
+        padding: 2em 0;
+    }
+    
+    #metrics .metric-grid {
+        grid-template-columns: 1fr;
+        margin: 0 1em;
+    }
+    
+    .metric-item {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 1.5em 1em;
+    }
+    
+    .metric-item:last-child {
+        border-bottom: none;
+        grid-column: auto;
+    }
+    
+    #metrics h2 {
+        font-size: 1.2em;
+    }
+    
+    .metric-number {
+        font-size: 1.5em;
+    }
+}
