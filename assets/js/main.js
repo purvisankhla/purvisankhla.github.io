@@ -114,18 +114,6 @@
 
 			});
 
-	// Accordion functionality
-	$('.accordion-header').on('click', function() {
-		var $item = $(this).parent();
-		var $allItems = $('.accordion-item');
-		
-		// Close all other items
-		$allItems.not($item).removeClass('active');
-		
-		// Toggle current item
-		$item.toggleClass('active');
-	});
-
 	// Lazy load Cal.com when first needed
 	var calLoaded = false;
 	var calLoadingPromise = null;
