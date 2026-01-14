@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Book a Session - Purvi Sankhla</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/Purvi Headshot.png" alt="" /></a>
+					<h1><strong>Purvi Sankhla</strong><br />
+				Data-Driven Strategy • Impact Finance • Sustainable Business Strategy • Chartered Accountant<br />
+				</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Booking Section -->
+					<section id="booking">
+						<h2>Book a Session</h2>
+						
+						<!-- Booking Tabs -->
+						<div class="booking-tabs">
+							<button class="booking-tab-btn active" data-tab="consultation">Consultation • €75</button>
+							<button class="booking-tab-btn" data-tab="intro">Quick Intro • Free</button>
+						</div>
+						
+						<!-- Consultation Calendar -->
+						<div class="booking-tab-content active" id="tab-consultation">
+							<div id="my-cal-inline-consultation-call"></div>
+						</div>
+
+						<!-- Introduction Calendar -->
+						<div class="booking-tab-content hidden" id="tab-intro">
+							<div id="my-cal-inline-introduction-get-a-quote"></div>
+						</div>
+
+						<p style="margin-top: 3em; text-align: center;">
+							<a href="index.html" class="button">Back to Home</a>
+						</p>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="mailto:purvi.sankhla@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; 2025</li><li>Design: <a href="http://html5up.net">HTML5 UP | Purvi Sankhla</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		<!-- Cal.com Inline Embeds -->
+		<!-- Introduction Calendar -->
+		<script type="text/javascript">
+		  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+		Cal("init", "introduction-get-a-quote", {origin:"https://app.cal.com"});
+
+		  Cal.ns["introduction-get-a-quote"]("inline", {
+		    elementOrSelector:"#my-cal-inline-introduction-get-a-quote",
+		    config: {"layout":"month_view"},
+		    calLink: "purvi-sankhla-opz7np/introduction-get-a-quote",
+		  });
+
+		  Cal.ns["introduction-get-a-quote"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+		</script>
+
+		<!-- Consultation Calendar -->
+		<script type="text/javascript">
+		  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+		Cal("init", "consultation-call", {origin:"https://app.cal.com"});
+
+		  Cal.ns["consultation-call"]("inline", {
+		    elementOrSelector:"#my-cal-inline-consultation-call",
+		    config: {"layout":"month_view"},
+		    calLink: "purvi-sankhla-opz7np/consultation-call",
+		  });
+
+		  Cal.ns["consultation-call"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+		</script>
+
+	</body>
+
+</html>
