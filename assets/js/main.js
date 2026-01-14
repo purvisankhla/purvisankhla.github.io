@@ -244,7 +244,7 @@
 	});
 
 	// Accordion functionality
-	$('.accordion-header').on('click', function() {
+	$(document).on('click', '.accordion-header', function() {
 		var $item = $(this).parent();
 		var $allItems = $('.accordion-item');
 		
