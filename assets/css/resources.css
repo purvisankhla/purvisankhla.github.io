@@ -86,7 +86,7 @@ body {
   background: #f9f9f9;
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0 !important;
 }
 
 #resources-header {
@@ -94,8 +94,21 @@ body {
   margin-bottom: 0.5rem !important;
 }
 
+/* Remove section separators for resources pages */
+#main > section {
+  border-top: 0 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 #breadcrumb > div {
-  max-width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#resources-header > div {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -104,13 +117,16 @@ body {
 #category-filter {
   padding: 0 1rem !important;
   margin: 1rem auto 1.5rem !important;
-  max-width: 900px !important;
+  max-width: 1200px !important;
   border-top: none !important;
 }
 
 /* Resources Grid */
 #resources-grid {
   margin-top: 0.5rem !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Consistent vertical spacing */
