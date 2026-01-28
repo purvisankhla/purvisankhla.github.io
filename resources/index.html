@@ -10,6 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<link rel="stylesheet" href="../assets/css/custom.css" />
+		<link rel="stylesheet" href="../assets/css/resources.css" />
 		<meta name="description" content="Explore insights, case studies, and research on climate finance, data strategy, sustainability, and impact investing from Purvi Sankhla." />
 	</head>
 	<body class="is-preload">
@@ -351,6 +352,28 @@
 					e.preventDefault();
 					alert('Coming Soon! This article is currently in progress. Check back soon for updates.');
 				});
+			});
+
+			// Make entire resource card clickable
+			document.querySelectorAll('.resource-card').forEach(card => {
+				card.addEventListener('click', function(e) {
+					// Don't trigger if clicking on the link itself
+					if (e.target.tagName === 'A') return;
+					
+					const link = this.querySelector('a.read-more');
+					if (link) {
+						// If it's a Coming Soon link, trigger the click handler
+						if (link.classList.contains('coming-soon-link')) {
+							link.click();
+						} else {
+							// Otherwise navigate to the link
+							window.location.href = link.href;
+						}
+					}
+				});
+				
+				// Add pointer cursor to indicate clickability
+				card.style.cursor = 'pointer';
 			});
 		</script>
 
