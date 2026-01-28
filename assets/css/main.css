@@ -190,7 +190,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px #e0e0e0;
 		margin: 2em 0;
 	}
 
@@ -199,16 +199,16 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #e0e0e0;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #f9f9f9;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #e0e0e0;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1817,7 +1817,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #f9f9f9;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1921,7 +1921,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f7f7f7;
+				background: #f9f9f9;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #e0e0e0;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2174,8 +2174,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+			border-top: solid 2px #e0e0e0;
 			}
 
 				ul.alt li:first-child {
@@ -2374,13 +2373,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px #e0e0e0;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #f9f9f9;
 			}
 
 		table td {
@@ -2396,11 +2395,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #e0e0e0;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #e0e0e0;
 		}
 
 		table.alt {
@@ -2408,7 +2407,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px #e0e0e0;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2445,7 +2444,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #e0e0e0;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;

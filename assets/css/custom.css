@@ -1,10 +1,31 @@
 /* Custom Styles - Carbon Black Theme */
 
 :root {
+    /* Dark Colors */
     --carbon-black: #1a1a1a;
     --carbon-dark: #0a0a0a;
     --carbon-light: #2d2d2d;
+    
+    /* Text Colors */
+    --text-dark: #111;
+    --text-primary: #222;
+    --text-secondary: #333;
+    --text-muted: #666;
     --text-light: #f5f5f5;
+    
+    /* Light Background Colors */
+    --bg-light: #f9f9f9;
+    --bg-lighter: #f5f5f5;
+    
+    /* Border Colors */
+    --border-light: #e0e0e0;
+    --border-lighter: #efefef;
+    
+    /* Accent Colors */
+    --accent-primary: #49bf9d;
+    --accent-hover: #5cc6a7;
+    --accent-active: #3eb08f;
+    
     --shadow-soft: 0 10px 40px rgba(26, 26, 26, 0.15);
 }
 
@@ -679,6 +700,7 @@
 #category-filter {
     margin-bottom: 3em;
     text-align: center;
+    border-top: none;
 }
 
 .category-tabs {
@@ -686,6 +708,7 @@
     gap: 1em;
     justify-content: center;
     flex-wrap: wrap;
+    border-top: none;
 }
 
 .category-tab {
@@ -716,12 +739,18 @@
 /* Resources Grid */
 .resources-grid-section {
     margin-bottom: 4em;
+    padding: 2em 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .resources-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5em;
+    padding: 1.5em 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .resource-card {
@@ -755,7 +784,7 @@
 }
 
 .resource-card-content {
-    padding: 2em;
+    padding: 2.5em;
     position: relative;
 }
 

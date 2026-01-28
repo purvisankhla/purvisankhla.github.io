@@ -53,14 +53,14 @@ body {
 /* CTA Section */
 #blog-cta {
   margin-top: 3rem !important;
-  padding: 2rem 1rem !important;
+  padding: 1rem 1rem !important;
   text-align: center;
 }
 
 #blog-cta p {
   font-size: 1.05rem;
-  color: #333;
-  margin-bottom: 1.5rem;
+  color: #f9f9f9;
+  margin-bottom: 1rem;
 }
 
 #blog-cta h2 {
@@ -86,13 +86,31 @@ body {
   background: #f9f9f9;
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+#resources-header {
+  padding: 0.75rem 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 #breadcrumb > div {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+/* Category Filter Tabs */
+#category-filter {
+  padding: 0 1rem !important;
+  margin: 1rem auto 1.5rem !important;
+  max-width: 900px !important;
+  border-top: none !important;
+}
+
+/* Resources Grid */
+#resources-grid {
+  margin-top: 0.5rem !important;
 }
 
 /* Consistent vertical spacing */
@@ -108,9 +126,13 @@ body {
 /* Blog content styling - consistent grayscale theme */
 .blog-post-article h1,
 #blog-post-header h1 {
-  color: #000 !important;
+  color: #111 !important;
   font-size: 2.1rem;
   margin: 0;
+}
+
+#resources-header h1 {
+  color: #111;
 }
 
 .blog-section {
@@ -138,7 +160,7 @@ body {
 .blog-section p {
   margin: 0 0 0.9rem;
   line-height: 1.6;
-  color: #333;
+  color: #222;
 }
 
 .blog-section a {
@@ -147,21 +169,21 @@ body {
 }
 
 .blog-section a:hover {
-  color: #000;
+  color: #111;
 }
 
 /* Card and box styling */
 .card-neutral {
-  background: #f7f7f7;
-  border: 1px solid #dcdcdc;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 1.1rem 1.2rem;
   color: #222;
 }
 
 .blog-tip {
-  background: #f7f7f7;
-  border: 1px solid #dcdcdc;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 1rem 1.1rem;
   color: #222;
@@ -196,8 +218,8 @@ body {
 }
 
 .related-card:hover {
-  background: #f0f0f0;
-  border-color: #999;
+  background: #f9f9f9;
+  border-color: #e0e0e0;
 }
 
 .related-card h3 {
@@ -230,9 +252,9 @@ body {
 }
 
 .related-read-more:hover {
-  color: #000;
+  color: #111;
   text-decoration: underline;
-}
+}}
 
 .coming-soon-label {
   font-size: 0.85rem;
@@ -242,7 +264,7 @@ body {
 }
 
 .related-card h3 a:hover {
-  color: #000;
+  color: #111;
   text-decoration: underline;
 }
 
