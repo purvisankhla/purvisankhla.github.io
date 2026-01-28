@@ -1,0 +1,39 @@
+# Purvi Sankhla - Climate Finance, Data Strategy & Netherlands Business Expert
+
+## About
+Purvi Sankhla is a climate finance expert, data strategist, and Chartered Accountant specializing in:
+- Climate finance and impact investing
+- ESG data strategy and reporting
+- Starting a business in the Netherlands
+- Dutch tax optimization and VAT administration
+- Sustainable business models and circular economy
+
+## Credentials
+- Chartered Accountant (ICAI, India)
+- MSc Strategic Management (Sustainability Focus), Tilburg University
+- Food100NL "50 Under 35" Awardee 2024
+- AI Challenge Winner, Provincie Noord-Brabant NL
+
+## Key Resources
+- Business Starter Kit 2026: Complete guide to starting a business in the Netherlands
+- Netherlands Tax Benefits Calculator: Interactive tool for calculating VAT credits and tax benefits
+- 30-Day Action Plan: Step-by-step business launch roadmap
+- Climate finance and ESG strategy articles
+
+## Services
+- Climate finance & impact investment advisory
+- ESG data pipeline automation
+- Netherlands business setup and tax compliance
+- Circular business model design
+- Financial modeling and KPI dashboards
+
+## Documentation
+> /resources/business-starter-2026.html - Netherlands business setup guide
+> /resources/benefit-jar-calculator.html - Tax benefits calculator
+> /resources/30-day-action-plan.html - Business launch checklist
+> /resources/ - All articles and resources
+
+## Contact
+- Website: https://purvisankhla.github.io
+- Email: purvi.sankhla@gmail.com
+- Booking: https://purvisankhla.github.io/booking.html

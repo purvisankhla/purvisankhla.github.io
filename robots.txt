@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /.vscode/
+
+# Sitemaps
+Sitemap: https://purvisankhla.github.io/sitemap.xml
+
+# Crawl-delay for courtesy
+Crawl-delay: 1
