@@ -1,0 +1,280 @@
+/* Resources Section Styling */
+/* Full-width layout with content centered, minimal side margins */
+
+body { 
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  overflow-x: hidden; 
+}
+
+#main { 
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}
+
+#footer {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+#footer .inner {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#footer .copyright {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+#footer .copyright a {
+  color: #222;
+  text-decoration: none;
+}
+
+#footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Section */
+#blog-cta {
+  margin-top: 3rem !important;
+  padding: 2rem 1rem !important;
+  text-align: center;
+}
+
+#blog-cta p {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+#blog-cta h2 {
+  display: none;
+}
+
+/* All content sections use same centered width */
+#breadcrumb,
+#blog-post-header,
+.blog-section,
+.blog-post-article,
+#related-articles,
+#blog-cta { 
+  max-width: 900px; 
+  margin-left: auto !important; 
+  margin-right: auto !important; 
+  padding-left: 1rem !important; 
+  padding-right: 1rem !important; 
+}
+
+/* Breadcrumb background full-width, content centered */
+#breadcrumb { 
+  background: #f9f9f9;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  margin-bottom: 0 !important;
+}
+
+#breadcrumb > div {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Consistent vertical spacing */
+.blog-section { 
+  padding-top: 1.5rem !important; 
+  padding-bottom: 1.5rem !important; 
+}
+
+.blog-section > h2 { 
+  margin-top: 0; 
+}
+
+/* Blog content styling - consistent grayscale theme */
+.blog-post-article h1,
+#blog-post-header h1 {
+  color: #000 !important;
+  font-size: 2.1rem;
+  margin: 0;
+}
+
+.blog-section {
+  margin: 2.25rem 0;
+}
+
+.blog-section h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: #111 !important;
+}
+
+.blog-section h3 {
+  margin: 1.1rem 0 0.6rem;
+  color: #111 !important;
+  font-size: 1.15rem;
+}
+
+.blog-section h4 {
+  margin: 0.8rem 0 0.4rem;
+  color: #111 !important;
+  font-size: 1.05rem;
+}
+
+.blog-section p {
+  margin: 0 0 0.9rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.blog-section a {
+  color: #222;
+  text-decoration: underline;
+}
+
+.blog-section a:hover {
+  color: #000;
+}
+
+/* Card and box styling */
+.card-neutral {
+  background: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+  color: #222;
+}
+
+.blog-tip {
+  background: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  color: #222;
+}
+
+/* Related Articles Section */
+#related-articles {
+  margin-top: 3rem !important;
+  padding: 0 1rem !important;
+}
+
+#related-articles h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.related-card {
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.related-card:hover {
+  background: #f0f0f0;
+  border-color: #999;
+}
+
+.related-card h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex-grow: 1;
+  color: #222;
+}
+
+.related-card h3 a {
+  color: #222;
+  text-decoration: none;
+}
+
+.related-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.related-card:has(.coming-soon-label) h3 {
+  color: #999;
+}
+
+.related-read-more {
+  font-size: 0.85rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.related-read-more:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.coming-soon-label {
+  font-size: 0.85rem;
+  color: #999;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.related-card h3 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.related-card .coming-soon-link {
+  color: #999;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.related-card .coming-soon-link:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  #breadcrumb,
+  #blog-post-header,
+  .blog-section,
+  .blog-post-article,
+  #related-articles,
+  #blog-cta,
+  #footer { 
+    padding-left: 0.75rem !important; 
+    padding-right: 0.75rem !important; 
+  }
+  
+  #breadcrumb > div { 
+    padding: 0 0.75rem; 
+  }
+
+  #footer .copyright {
+    gap: 1rem;
+  }
+}
