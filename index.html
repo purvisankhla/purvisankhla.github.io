@@ -7,6 +7,11 @@
 		<meta name="theme-color" content="#1a1a1a" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="images/Purvi Headshot.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="images/Purvi Headshot.png" />
+		<link rel="apple-touch-icon" href="images/Purvi Headshot.png" />
+		
 		<!-- Canonical Tag -->
 		<link rel="canonical" href="https://purvisankhla.github.io/" />
 		
@@ -43,7 +48,9 @@
 		
 		<!-- Resource Hints -->
 		<link rel="preload" href="assets/css/main.css" as="style" />
+		<link rel="preload" href="assets/css/custom.css" as="style" />
 		<link rel="preload" href="images/Purvi Headshot.png" as="image" />
+		<link rel="preconnect" href="https://tally.so" crossorigin />
 		<link rel="dns-prefetch" href="https://tally.so" />
 		<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 		
@@ -326,11 +333,12 @@
 				</div>
 				<ul class="actions">
 					<li><a href="#one" class="button" aria-label="Back to top of page">Back to Top</a></li>
-				</section>
+			</ul>
+		</section>
 
-			<!-- Services -->
-				<section id="services">
-					<h2>I can help you with</h2>
+		<!-- Services -->
+			<section id="services" aria-labelledby="services-heading">
+				<h2 id="services-heading">I can help you with</h2>
 					<!-- <p>I partner with organizations, startups, and investors to design and implement climate-positive strategies that deliver measurable financial and environmental returns.</p> -->
 					<div class="accordion-container">
 						<div class="accordion-item">
@@ -396,7 +404,7 @@
 				<p>I start by deeply understanding the problems you're facing—whether it's optimizing operations, navigating regulations, measuring impact, or aligning finance with strategic goals. From there, we develop tailored strategies grounded in data and real-world constraints.</p>
 			</section>
 				
-			<iframe data-tally-src="https://tally.so/embed/PdDeN5?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="284" frameborder="0" marginheight="0" marginwidth="0" title="Contact form - Send a message to Purvi Sankhla"></iframe>
+				<iframe data-tally-src="https://tally.so/embed/PdDeN5?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="284" frameborder="0" marginheight="0" marginwidth="0" title="Contact form - Send a message to Purvi Sankhla" importance="low"></iframe>
 			<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>			
 			
 			<p style="margin-top: 2em; font-size: 0.5em;"><em>Food100NL "50 Under 35" Awardee | MSc Strategic Management (Sustainability Focus), Tilburg University | Chartered Accountant, India</em></p>
@@ -419,12 +427,11 @@
 		</footer>
 
 <!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 </body>
 
