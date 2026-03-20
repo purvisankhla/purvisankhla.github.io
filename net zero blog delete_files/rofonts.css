@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ROregular';
+    src: url('../fonts/ROsanswebtextregular.woff2') format('woff2');
+    src: url('../fonts/ROsanswebtextregular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ROitalic';
+    src: url('../fonts/ROsanswebtextitalic.woff2') format('woff2');
+    src: url('../fonts/ROsanswebtextitalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'RObold';
+    src: url('../fonts/ROsanswebtextbold.woff2') format('woff2');
+    src: url('../fonts/ROsanswebtextbold.woff') format('woff');
+}
