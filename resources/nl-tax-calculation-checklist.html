@@ -1,0 +1,680 @@
+<!DOCTYPE HTML>
+<!--
+Blog Post: NL tax calculation - checklist
+Purvi Sankhla
+-->
+<html lang="en">
+<head>
+  <title>Tax Filing NL Checklist (2026) | Before using a Tax Calculator NL</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="Tax filing NL checklist (2026): before entering numbers into a tax calculator NL, don’t forget these scenarios and pointers. Select what applies (salary, ZZP, BV, VOF, partner, mortgage, 30% ruling, stichting, box 3, healthcare) and get a personalised checklist." />
+  <meta name="keywords" content="tax calculator NL, tax filing NL checklist, Netherlands tax checklist 2026, income tax filing checklist NL, aangifte inkomstenbelasting checklist, 30% ruling checklist" />
+  <meta name="author" content="Purvi Sankhla" />
+  <meta name="publish_date" content="2026-04-01" />
+  <meta name="last-modified" content="2026-04-01" />
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="Tax Filing NL Checklist (2026)" />
+  <meta property="og:description" content="Before using a tax calculator NL: select what applies and get a personalised checklist so you don’t miss anything in your Dutch income tax return." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://purvisankhla.github.io/resources/nl-tax-calculation-checklist.html" />
+  <meta property="og:site_name" content="Purvi Sankhla" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://purvisankhla.github.io/resources/nl-tax-calculation-checklist.html" />
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Tax Filing NL Checklist (2026)",
+    "description": "Interactive checklist for Dutch income tax filing in 2026 (before using a tax calculator NL).",
+    "datePublished": "2026-04-01",
+    "dateModified": "2026-04-01",
+    "author": {
+      "@type": "Person",
+      "name": "Purvi Sankhla",
+      "url": "https://purvisankhla.github.io"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Purvi Sankhla",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://purvisankhla.github.io/images/Purvi Headshot.png"
+      }
+    },
+    "articleSection": "Accounting & Finance",
+    "keywords": "Netherlands, income tax, checklist, 2026"
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://purvisankhla.github.io" },
+      { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://purvisankhla.github.io/resources/" },
+      { "@type": "ListItem", "position": 3, "name": "Tax Filing NL Checklist", "item": "https://purvisankhla.github.io/resources/nl-tax-calculation-checklist.html" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/custom.css" />
+  <link rel="stylesheet" href="../assets/css/resources.css" />
+
+  <style>
+    .disclaimer { background:#f7f7f7; border-left:4px solid #222; padding:1rem; border-radius:8px; border:1px solid #dcdcdc; }
+    /* Make sections feel like one clean page (no nested boxes). */
+    .selector { background:transparent; border:none; border-radius:0; padding:0; box-shadow:none; }
+    .selector h3 { margin:0 0 0.35rem 0; }
+    .selector p { margin:0 0 1rem 0; color:#444; }
+    /* Compact scenario picker (in one box, multi-column). */
+    .scenario-list {
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:0.35rem 1.25rem;
+      margin:0;
+      padding:0;
+    }
+    @media (max-width: 840px) {
+      .scenario-list { grid-template-columns: 1fr; }
+    }
+    .scenario-item {
+      display:flex; gap:0.7rem; align-items:flex-start;
+      padding:0.25rem 0;
+      border:none;
+      border-radius:0;
+      background:transparent;
+      cursor:pointer;
+      user-select:none;
+    }
+    /* Force visible native checkboxes (theme may hide them). */
+    .scenario-item input[type="checkbox"],
+    .tick[type="checkbox"] {
+      opacity: 1 !important;
+      position: static !important;
+      width: 18px !important;
+      height: 18px !important;
+      margin: 0.2rem 0 0 0 !important;
+      z-index: 1 !important;
+      float: none !important;
+      appearance: auto !important;
+      -webkit-appearance: checkbox !important;
+      -moz-appearance: checkbox !important;
+      cursor: pointer !important;
+      pointer-events: auto !important;
+      flex-shrink: 0;
+    }
+
+    /* Avoid any theme pseudo-checkbox overlays on labels. */
+    .scenario-item:before,
+    .scenario-item:after {
+      display: none !important;
+      content: none !important;
+    }
+
+    .scenario-item input { margin-top:0.15rem; }
+    .scenario-item .t { font-weight:800; color:#111; margin:0; }
+    .scenario-item .s {
+      display:none;
+      font-size:0.84rem;
+      color:#666;
+      margin:0.1rem 0 0 0;
+      line-height:1.35;
+    }
+    .scenario-item input:checked + div .s { display:block; }
+    .scenario-item:hover .s { display:block; }
+
+    .mini { display:flex; justify-content:space-between; gap:0.75rem; flex-wrap:wrap; margin-top:0.85rem; }
+    .mini .k { background:#f9f9f9; border:1px solid #e0e0e0; border-radius:10px; padding:0.7rem 0.85rem; min-width:240px; flex:1; }
+    .mini .k .label { font-size:0.85rem; color:#666; margin:0 0 0.25rem 0; }
+    .mini .k .value { font-size:1.05rem; font-weight:900; color:#111; margin:0; }
+
+    .check { margin-top:1rem; }
+    .muted { color:#666; }
+
+    .group { margin-top:1.15rem; }
+    .group h3 { margin:0 0 0.55rem 0; }
+
+    /* Put lists into one clean box (requested). */
+    .list-box { background:#fff; border:1px solid #e0e0e0; border-radius:12px; padding:0.85rem 0.95rem; }
+    .list { background:transparent; border:none; border-radius:0; padding:0; }
+    .list .item { display:flex; gap:0.75rem; padding:0.85rem 0; border-bottom:1px solid #f0f0f0; align-items:flex-start; }
+    .list .item:last-child { border-bottom:none; padding-bottom:0; }
+    .txt strong { color:#111; }
+    .txt { color:#222; flex:1; }
+    .txt p { margin:0.15rem 0 0 0; color:#555; font-size:0.92rem; line-height:1.45; }
+    .tick { margin-top:0.25rem; width:18px; height:18px; flex-shrink:0; }
+    .itemlinks { margin-top:0.35rem; font-size:0.88rem; }
+    .itemlinks a { text-decoration:underline; }
+
+    .toolbar { display:flex; gap:0.6rem; flex-wrap:wrap; margin-top:0.85rem; }
+    .btn { padding:0.65rem 0.9rem; border-radius:10px; border:1px solid #dcdcdc; background:#fff; color:#111; font-weight:800; cursor:pointer; }
+    .btn.primary { background:#222; color:#fff; border-color:#222; }
+    .btn:disabled { opacity:0.6; cursor:not-allowed; }
+    .copynote { display:none; margin-top:0.75rem; background:#e6e6e6; border:1px solid #dcdcdc; border-radius:10px; padding:0.75rem; font-weight:800; color:#111; text-align:center; }
+
+    .anchorlinks a { text-decoration:underline; }
+  </style>
+</head>
+<body class="is-preload">
+
+  <div id="main">
+    <!-- Breadcrumb Navigation -->
+    <nav id="breadcrumb" style="background:#f9f9f9;padding:0.75rem;border-bottom:none;margin-bottom:0;">
+      <div style="max-width:900px;margin:0 auto;font-size:0.9rem;">
+        <a href="../index.html">Home</a> <span style="color:#999;margin:0 0.5rem;">/</span>
+        <a href="index.html">Resources</a> <span style="color:#999;margin:0 0.5rem;">/</span>
+        <span style="color:#666;">Tax Filing NL Checklist</span>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="blog-post-header" style="padding:0;margin:0;border:none;">
+      <div style="max-width:900px;margin:0 auto;">
+        <div class="blog-post-meta" style="margin-bottom:0;display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap;color:#333;">
+          <span class="blog-post-read-time">8 min read</span>
+        </div>
+        <h1 style="margin:0;font-size:2.2rem;color:#000;">Tax filing NL — checklist (2026)</h1>
+        <p style="color:#666;margin:0.4rem 0 0 0;">Before you enter numbers into a <strong>tax calculator NL</strong>, run through this checklist so you don’t miss important scenarios and pointers.</p>
+      </div>
+    </section>
+
+    <article class="blog-post-article">
+
+      <section class="blog-section">
+        <div class="disclaimer">
+          <p style="margin:0;"><strong>Deadline note:</strong> Belastingdienst says your return must be in by the date on your invitation letter, and <strong>often this is 1 May</strong>. For the 2025 return filed in 2026, this is typically <strong>1 May 2026</strong> — always verify against your own letter and any granted extension.</p>
+          <p style="margin:0.65rem 0 0 0;font-size:0.92rem;color:#444;">
+            Official sources:
+            <a href="https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/wanneer-moet-ik-aangifte-doen" target="_blank" rel="noreferrer">Belastingdienst — “Wanneer moet mijn aangifte binnen zijn?”</a>
+            and
+            <a href="https://www.kvk.nl/geldzaken/inkomstenbelasting-voor-ondernemers/" target="_blank" rel="noreferrer">KVK — income tax for entrepreneurs (updated Feb 2026)</a>.
+          </p>
+          <p style="margin:0.65rem 0 0 0;font-size:0.92rem;color:#444;">
+            For preparation and “what you need” lists, Belastingdienst also provides:
+            <a href="https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/welke_gegevens_heb_ik_nodig_voor_mijn_belastingaangifte" target="_blank" rel="noreferrer">data checklist for the 2025 return</a>
+            and an
+            <a href="https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/voorbereid-op-uw-belastingaangifte-voor-ondernemers" target="_blank" rel="noreferrer">entrepreneur 6-check checklist</a>.
+          </p>
+        </div>
+      </section>
+
+      <section class="blog-section" id="selector">
+        <h2>Select what applies to you</h2>
+        <div class="selector">
+          <h3>Your situation</h3>
+          <p>Tick all relevant scenarios, then click the button to generate your checklist.</p>
+
+          <div class="list-box">
+            <div class="scenario-list" id="pillGrid">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <button class="btn primary" id="generateBtn" type="button">Show me my checklist</button>
+            <button class="btn" id="clearBtn" type="button">Clear selection</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="checklist">
+        <h2>Your personalised checklist</h2>
+        <p style="color:#666;margin:0 0 0.5rem 0;">This checklist is generated from what you selected above.</p>
+
+        <div class="check">
+          <div class="muted" id="checklistSummary" style="margin:0.25rem 0 0.9rem 0;">
+            Select scenarios above to generate your checklist.
+          </div>
+
+          <div class="list-box">
+            <div id="checklistOutput"></div>
+          </div>
+
+          <div class="toolbar" style="margin-top:1rem;">
+            <button class="btn primary" id="copyBtn" type="button">Copy checklist</button>
+          </div>
+          <div class="copynote" id="copyNote">✓ Copied to clipboard</div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <h2>Need help?</h2>
+        <p>If you want a quick “tax filing readiness” review (what applies to you + what to gather), book a call.</p>
+        <ul class="actions special" style="margin-top:1rem;">
+          <li><a href="../booking.html" class="button primary">Book a call</a></li>
+          <li><a href="index.html" class="button">Back to Resources</a></li>
+        </ul>
+      </section>
+
+      <section id="related-articles" class="related-articles" style="margin-top:3rem;">
+        <h2>You Might Also Like</h2>
+        <div class="related-grid">
+          <article class="related-card">
+            <h3><a href="benefit-jar-calculator.html">Netherlands Tax Benefits Calculator: See Your Real Savings</a></h3>
+            <a href="benefit-jar-calculator.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3><a href="zzp-personal-returns-expenses.html">Filing Personal Returns as a ZZP: What Expenses Can You Claim?</a></h3>
+            <a href="zzp-personal-returns-expenses.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3><a href="business-starter-2026.html">2026 Business Starter Kit: Your Netherlands Entrepreneur Roadmap</a></h3>
+            <a href="business-starter-2026.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3><a href="30-day-action-plan.html">30-Day Action Plan: Launch Your Netherlands Business Right</a></h3>
+            <a href="30-day-action-plan.html" class="related-read-more">Read more →</a>
+          </article>
+        </div>
+      </section>
+
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="copyright">
+        <li>&copy; 2025</li>
+        <li><a href="index.html">Resources</a></li>
+        <li><a href="../booking.html">Booking</a></li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP | Purvi Sankhla</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.poptrox.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+  <script>
+    // Scenarios are inputs. Checklist items are generated.
+    const SCENARIOS = [
+      { key: 'salary', label: 'Salary (employment)', sub: 'Payslips, jaaropgave, wage tax withheld' },
+      { key: 'zzp', label: 'ZZP / eenmanszaak', sub: 'Profit/loss, business costs, entrepreneur deductions' },
+      { key: 'vof', label: 'VOF / partnership', sub: 'Profit share, agreements, drawings' },
+      { key: 'bv', label: 'BV (director salary/dividends)', sub: 'Salary documents, dividends' },
+      { key: 'partner', label: 'Fiscal partner / joint filing', sub: 'Allocation choices can change outcome' },
+      { key: 'homeowner', label: 'Home owner (mortgage)', sub: 'Mortgage statement, buy/sell docs' },
+      { key: 'box3', label: 'Savings/investments (Box 3)', sub: 'Bank, investments, debts, crypto' },
+      { key: 'crypto', label: 'Crypto holdings', sub: 'Exchange overviews (often Box 3)' },
+      { key: 'donations', label: 'Donations / gifts (giften)', sub: 'Payment proofs (often ANBI)' },
+      { key: 'alimony', label: 'Partner alimony', sub: 'Paid or received partner alimony' },
+      { key: 'lijfrente', label: 'Pension / annuity (lijfrente)', sub: 'Paid premiums and documents' },
+      { key: 'aov', label: 'Disability insurance (AOV)', sub: 'Overview of premiums paid' },
+      { key: 'dividend', label: 'Dividend received', sub: 'Dividend statements and withholding' },
+      { key: 'ruling30', label: '30% ruling', sub: 'Applied via payroll; verify payslip/jaaropgave' },
+      { key: 'zorg', label: 'Specific healthcare costs', sub: 'Eligible costs; prescribed diet fixed amounts' },
+      { key: 'stichting', label: 'Stichting (board/volunteer)', sub: 'Volunteer allowance / board compensation rules' },
+      { key: 'foreign', label: 'Foreign income / abroad situation', sub: 'Multiple countries, treaties, foreign statements' }
+    ];
+
+    const OFFICIAL_LINKS = {
+      deadline: { label: 'Belastingdienst — deadline (often 1 May)', url: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/wanneer-moet-ik-aangifte-doen' },
+      dataChecklist: { label: 'Belastingdienst — data checklist (2025 return)', url: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/welke_gegevens_heb_ik_nodig_voor_mijn_belastingaangifte' },
+      entrepreneur6: { label: 'Belastingdienst — entrepreneur 6-checks', url: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/belastingaangifte/content/voorbereid-op-uw-belastingaangifte-voor-ondernemers' },
+      expat30: { label: 'Belastingdienst — 30% ruling (expatregeling)', url: 'https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/internationaal/personeel/u_bent_niet_in_nederland_gevestigd_loonheffingen_inhouden/als_u_loonheffingen_gaat_inhouden/extraterritoriale_kosten_en_de_30procentregeling/inhoud_van_de_regeling/' },
+      diet: { label: 'Belastingdienst — diet costs', url: 'https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/relatie_familie_en_gezondheid/gezondheid/aftrek_zorgkosten/overzicht_zorgkosten/dieetkosten/dieetkosten' },
+      volunteer: { label: 'Belastingdienst — volunteer allowance', url: 'https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vrijwilligersregeling' },
+      board: { label: 'Belastingdienst — board/commissioner compensation', url: 'https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/stichtingen_en_verenigingen/vrijwilligers-personeel-en-loonheffingen/vergoedingen-aan-bestuurders-en-commissarissen' }
+    };
+
+    const GROUPS = [
+      { key: 'start', title: 'Start here (always relevant)' },
+      { key: 'income', title: 'Income to verify (Box 1/2/3 depending)' },
+      { key: 'home', title: 'Housing & mortgage' },
+      { key: 'business', title: 'Business & self-employment' },
+      { key: 'deductions', title: 'Deductions & claims' },
+      { key: 'assets', title: 'Assets, savings & investments (Box 3)' },
+      { key: 'org', title: 'Foundation / volunteering (stichting)' }
+    ];
+
+    /** Checklist item model:
+     * { id, group, title, detail, tags:[], links?:[{label,url}] }
+     */
+    const ITEMS = [
+      {
+        id: 'start_prefilled',
+        group: 'start',
+        title: 'Download the pre-filled return and review it line-by-line',
+        detail: 'Belastingdienst pre-fills many items, but you are responsible to verify, correct, and add missing items.',
+        tags: ['_base'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'start_identity',
+        group: 'start',
+        title: 'Have your BSN, bank account, and DigiD ready (and your partner’s if applicable)',
+        detail: 'These are commonly needed to access Mijn Belastingdienst and complete the return.',
+        tags: ['_base'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'start_evidence',
+        group: 'start',
+        title: 'Only claim what you can prove (keep payment proofs and documentation)',
+        detail: 'Receipts, invoices, bank statements, and relevant letters/decisions are your best defense if questioned later.',
+        tags: ['_base']
+      },
+      {
+        id: 'income_jaaropgave',
+        group: 'income',
+        title: 'Employment income: jaaropgave (or payslips) and wage tax withheld',
+        detail: 'Verify gross salary, wage tax withheld, and reimbursements.',
+        tags: ['salary'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'income_dividend',
+        group: 'income',
+        title: 'Dividend: collect dividend statements and any withholding info',
+        detail: 'Useful if you received dividends (also relevant for BV situations).',
+        tags: ['dividend','bv'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'income_alimony_received',
+        group: 'income',
+        title: 'Partner alimony received: have totals/receipts ready',
+        detail: 'Belastingdienst lists received partner alimony as an income item to gather.',
+        tags: ['alimony'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'home_woz',
+        group: 'home',
+        title: 'Home owner: WOZ value + mortgage annual statement',
+        detail: 'Belastingdienst’s checklist highlights WOZ (peildatum) and mortgage year statement; include notary settlement if you bought/sold.',
+        tags: ['homeowner','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'home_notary',
+        group: 'home',
+        title: 'If you bought or sold a home: keep the notary settlement (notarisafrekening)',
+        detail: 'This is specifically listed in Belastingdienst’s data checklist for home buy/sell.',
+        tags: ['homeowner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'business_profitloss',
+        group: 'business',
+        title: 'Business result: prepare profit/loss (revenue − costs)',
+        detail: 'Your ZZP/VOF results typically flow into Box 1 (as part of total income). Claim only business costs with documentation.',
+        tags: ['zzp','vof'],
+        links: [OFFICIAL_LINKS.entrepreneur6]
+      },
+      {
+        id: 'business_entrepreneur_checks',
+        group: 'business',
+        title: 'Entrepreneur checks: confirm classification + eligible deductions/arrangements',
+        detail: 'Belastingdienst notes: VAT entrepreneur ≠ automatically income tax entrepreneur; also review entrepreneurs’ deductions and attention points (e.g., private use car, business costs).',
+        tags: ['zzp','vof'],
+        links: [OFFICIAL_LINKS.entrepreneur6]
+      },
+      {
+        id: 'business_partner_allocation',
+        group: 'business',
+        title: 'Fiscal partner: test allocation of joint/allocatable items (don’t guess)',
+        detail: 'Allocations can change credits/deductions outcome; this is where modeling helps.',
+        tags: ['partner','homeowner','zzp','vof'],
+        links: [{ label: 'Benefit Jar calculator (numbers view)', url: 'benefit-jar-calculator.html' }]
+      },
+      {
+        id: 'deductions_donations',
+        group: 'deductions',
+        title: 'Donations/gifts: collect payment proofs',
+        detail: 'Belastingdienst lists gifts under “aftrekposten” and asks for payment proofs.',
+        tags: ['donations','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'deductions_zorg',
+        group: 'deductions',
+        title: 'Healthcare costs: collect proofs and verify eligibility',
+        detail: 'Belastingdienst lists healthcare costs (not reimbursed) under deductions; some items like own risk/premiums are excluded.',
+        tags: ['zorg','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'deductions_diet',
+        group: 'deductions',
+        title: 'Diet costs: only if prescribed and on official diet lists (fixed amount)',
+        detail: 'Belastingdienst allows fixed amounts for prescribed diets that appear on the official lists; keep diet confirmation.',
+        tags: ['zorg'],
+        links: [OFFICIAL_LINKS.diet]
+      },
+      {
+        id: 'deductions_alimony_paid',
+        group: 'deductions',
+        title: 'Partner alimony paid: gather payment proofs',
+        detail: 'Belastingdienst includes paid partner alimony under deductions/payment proofs.',
+        tags: ['alimony','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'assets_bank',
+        group: 'assets',
+        title: 'Box 3: gather year overviews for bank accounts, savings, and investments',
+        detail: 'Belastingdienst lists bank/savings/investment year overviews as needed data.',
+        tags: ['box3','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'assets_crypto',
+        group: 'assets',
+        title: 'Crypto: gather exchange year overview(s)',
+        detail: 'Belastingdienst explicitly lists crypto exchange year overviews as needed data.',
+        tags: ['crypto','box3'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'assets_debts',
+        group: 'assets',
+        title: 'Debts/loans: collect balances and contracts (Box 3 relevance)',
+        detail: 'Belastingdienst lists “leningen en andere schulden” under “Overig”.',
+        tags: ['box3','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'deductions_lijfrente',
+        group: 'deductions',
+        title: 'Lijfrente premiums: collect paid premium details',
+        detail: 'Belastingdienst lists “betaalde lijfrentepremies” under “Overig”.',
+        tags: ['lijfrente','partner'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'deductions_aov',
+        group: 'deductions',
+        title: 'AOV: keep your overview of paid disability insurance premiums',
+        detail: 'Belastingdienst lists an overview of paid AOV under “Overig”.',
+        tags: ['aov','zzp','vof'],
+        links: [OFFICIAL_LINKS.dataChecklist]
+      },
+      {
+        id: 'org_volunteer',
+        group: 'org',
+        title: 'Volunteer allowance (vrijwilligersvergoeding): check thresholds and what you received',
+        detail: 'Belastingdienst publishes thresholds (monthly/yearly) and conditions for the volunteer scheme for foundations/associations.',
+        tags: ['stichting'],
+        links: [OFFICIAL_LINKS.volunteer]
+      },
+      {
+        id: 'org_board',
+        group: 'org',
+        title: 'Board/commissioner compensation: verify payroll consequences if above volunteer thresholds',
+        detail: 'Belastingdienst explains different consequences for board members (especially foundations) and commissioners (“opting-in”).',
+        tags: ['stichting'],
+        links: [OFFICIAL_LINKS.board]
+      },
+      {
+        id: 'salary_30ruling',
+        group: 'income',
+        title: '30% ruling: verify it is applied via payroll (don’t self-apply without it)',
+        detail: 'Belastingdienst describes the 30% ruling as an employer paying up to 30% of wage tax-free as compensation for extraterritorial costs (within conditions).',
+        tags: ['ruling30','salary'],
+        links: [OFFICIAL_LINKS.expat30]
+      },
+      {
+        id: 'foreign_income',
+        group: 'income',
+        title: 'Foreign income / abroad: gather foreign statements and check treaty implications',
+        detail: 'If you had income or assets abroad, keep official statements and be consistent across countries. Consider professional review for multi-country complexity.',
+        tags: ['foreign']
+      }
+    ];
+
+    function escapeHtml(str) {
+      return String(str || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function selectedScenarioKeys() {
+      return Array.from(document.querySelectorAll('#pillGrid input[type="checkbox"]'))
+        .filter(x => x.checked)
+        .map(x => x.getAttribute('data-key'));
+    }
+
+    function renderScenarios() {
+      const grid = document.getElementById('pillGrid');
+      grid.innerHTML = '';
+      SCENARIOS.forEach(s => {
+        const el = document.createElement('label');
+        el.className = 'scenario-item';
+        el.innerHTML = `
+          <input type="checkbox" data-key="${escapeHtml(s.key)}" />
+          <div>
+            <p class="t">${escapeHtml(s.label)}</p>
+            <p class="s">${escapeHtml(s.sub)}</p>
+          </div>
+        `;
+        grid.appendChild(el);
+      });
+
+      grid.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.addEventListener('change', update));
+    }
+
+    function getActiveItems(keys) {
+      const active = new Map();
+      // Always include base items.
+      ITEMS.filter(i => i.tags.includes('_base')).forEach(i => active.set(i.id, i));
+      // Include items whose tags intersect selected keys.
+      ITEMS.filter(i => !i.tags.includes('_base')).forEach(i => {
+        if (i.tags.some(t => keys.includes(t))) active.set(i.id, i);
+      });
+      return Array.from(active.values());
+    }
+
+    function renderChecklist(keys) {
+      const out = document.getElementById('checklistOutput');
+      out.innerHTML = '';
+
+      const items = getActiveItems(keys);
+      const itemCount = items.length;
+
+      const scenarioCount = keys.length;
+      document.getElementById('copyBtn').disabled = scenarioCount === 0;
+
+      document.getElementById('checklistSummary').textContent =
+        scenarioCount === 0
+          ? 'Select scenarios above to generate your checklist.'
+          : `Generated ${itemCount} checklist items from ${scenarioCount} selected scenario(s).`;
+
+      // Render a single clean list (no subtopics).
+      const listEl = document.createElement('div');
+      listEl.className = 'list';
+
+      // Stable order: by GROUPS order
+      const groupOrder = new Map(GROUPS.map((g, idx) => [g.key, idx]));
+      items.sort((a, b) => (groupOrder.get(a.group) ?? 999) - (groupOrder.get(b.group) ?? 999));
+
+      items.forEach(i => {
+        const itemEl = document.createElement('div');
+        itemEl.className = 'item';
+        itemEl.innerHTML = `
+          <input class="tick" type="checkbox" data-item="${escapeHtml(i.id)}" />
+          <div class="txt">
+            <strong>${escapeHtml(i.title)}</strong>
+          </div>
+        `;
+        listEl.appendChild(itemEl);
+      });
+
+      out.appendChild(listEl);
+    }
+
+    function buildChecklistText(keys) {
+      const items = getActiveItems(keys);
+      const header = [
+        'NL TAX FILING CHECKLIST (2026 filing)',
+        'Deadline: check your invitation letter (often 1 May)',
+        'Generated from selected scenarios + Belastingdienst checklists',
+        ''
+      ].join('\n');
+
+      const scenarioLine = `Scenarios selected: ${keys.length ? keys.join(', ') : '(none)'}`;
+      const lines = [header, scenarioLine, ''];
+
+      GROUPS.forEach(g => {
+        const groupItems = items.filter(i => i.group === g.key);
+        if (groupItems.length === 0) return;
+        lines.push(g.title.toUpperCase());
+        groupItems.forEach(i => lines.push(`☐ ${i.title}`));
+        lines.push('');
+      });
+
+      return lines.join('\n');
+    }
+
+    async function copyChecklist() {
+      const keys = selectedScenarioKeys();
+      const text = buildChecklistText(keys);
+      try {
+        await navigator.clipboard.writeText(text);
+        const note = document.getElementById('copyNote');
+        note.style.display = 'block';
+        setTimeout(() => { note.style.display = 'none'; }, 2500);
+      } catch (e) {
+        alert('Copy failed. Please select and copy manually.');
+      }
+    }
+
+    function update() {
+      const keys = selectedScenarioKeys();
+      renderChecklist(keys);
+    }
+
+    document.getElementById('clearBtn').addEventListener('click', () => {
+      document.querySelectorAll('#pillGrid input[type="checkbox"]').forEach(cb => cb.checked = false);
+      document.getElementById('checklistOutput').innerHTML = '';
+      document.getElementById('checklistSummary').textContent = 'Select scenarios above to generate your checklist.';
+      document.getElementById('copyBtn').disabled = true;
+    });
+    document.getElementById('copyBtn').addEventListener('click', copyChecklist);
+
+    renderScenarios();
+    // Generate only on demand.
+    document.getElementById('copyBtn').disabled = true;
+    document.getElementById('generateBtn').addEventListener('click', update);
+  </script>
+
+</body>
+</html>
+
