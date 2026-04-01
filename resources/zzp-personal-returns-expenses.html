@@ -1,0 +1,600 @@
+<!DOCTYPE HTML>
+<!--
+Blog Post: Filing Personal Returns as a ZZP (expenses)
+Purvi Sankhla
+-->
+<html lang="en">
+<head>
+  <title>Filing Personal Returns as a ZZP: What Expenses Can You Claim? | Netherlands</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="A practical guide to filing personal returns as a ZZP in the Netherlands, how your business profit/loss flows into personal income tax, and what expenses you can (and can’t) claim — including when revenue is zero." />
+  <meta name="keywords" content="ZZP expenses, filing personal returns ZZP, Netherlands deductible expenses, income tax ZZP, Belastingdienst personal return, business expenses zero revenue" />
+  <meta name="author" content="Purvi Sankhla" />
+  <meta name="publish_date" content="2026-04-01" />
+  <meta name="last-modified" content="2026-04-01" />
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="Filing Personal Returns as a ZZP: What Expenses Can You Claim?" />
+  <meta property="og:description" content="ZZP isn’t a separate legal entity. Learn how profit/loss merges into your personal return — and how to think about expenses (even with zero revenue)." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://purvisankhla.github.io/resources/zzp-personal-returns-expenses.html" />
+  <meta property="og:site_name" content="Purvi Sankhla" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://purvisankhla.github.io/resources/zzp-personal-returns-expenses.html" />
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Filing Personal Returns as a ZZP: What Expenses Can You Claim?",
+    "description": "A practical guide to filing personal returns as a ZZP in the Netherlands, and how to claim expenses — even when revenue is zero.",
+    "datePublished": "2026-04-01",
+    "dateModified": "2026-04-01",
+    "author": {
+      "@type": "Person",
+      "name": "Purvi Sankhla",
+      "url": "https://purvisankhla.github.io"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Purvi Sankhla",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://purvisankhla.github.io/images/Purvi Headshot.png"
+      }
+    },
+    "articleSection": "Accounting & Finance",
+    "keywords": "ZZP, personal returns, expenses, Netherlands, Belastingdienst"
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://purvisankhla.github.io" },
+      { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://purvisankhla.github.io/resources/" },
+      { "@type": "ListItem", "position": 3, "name": "ZZP Personal Returns & Expenses", "item": "https://purvisankhla.github.io/resources/zzp-personal-returns-expenses.html" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/custom.css" />
+  <link rel="stylesheet" href="../assets/css/resources.css" />
+
+  <style>
+    .mini-kpi { display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap:0.75rem; }
+    .mini-kpi .kpi { background:#f9f9f9; border:1px solid #e0e0e0; border-radius:10px; padding:0.9rem 1rem; }
+    .mini-kpi .kpi .label { font-size:0.85rem; color:#666; margin:0 0 0.25rem; }
+    .mini-kpi .kpi .value { font-size:1.15rem; font-weight:700; color:#111; margin:0; }
+
+    .graphic-card { background:#fff; border:1px solid #e0e0e0; border-radius:12px; padding:1rem; }
+    .svg-wrap { width:100%; overflow:hidden; }
+    .svg-wrap svg { width:100%; height:auto; display:block; }
+
+    .expense-tool { background:#fff; border:2px solid #dcdcdc; border-radius:12px; padding:1.25rem; box-shadow:0 2px 10px rgba(0,0,0,0.04); }
+    .expense-tool h3 { margin:0 0 0.35rem 0; }
+    .expense-tool p { margin:0 0 1rem 0; color:#444; }
+    .expense-grid { display:grid; grid-template-columns: 1.2fr 0.8fr; gap:1rem; }
+    @media (max-width: 860px) { .expense-grid { grid-template-columns: 1fr; } }
+
+    .expense-form { background:#f9f9f9; border:1px solid #e0e0e0; border-radius:10px; padding:1rem; }
+    .expense-form .row { display:grid; grid-template-columns: 1fr 150px; gap:0.6rem; margin-bottom:0.6rem; }
+    @media (max-width: 520px) { .expense-form .row { grid-template-columns: 1fr; } }
+    .expense-form label { display:block; font-size:0.82rem; font-weight:600; color:#111; margin:0 0 0.25rem; }
+    .expense-form input, .expense-form select { width:100%; padding:0.55rem 0.6rem; border:1px solid #dcdcdc; border-radius:6px; background:#fff; color:#111; box-sizing:border-box; font-weight:600; }
+    .expense-form .btn { width:100%; padding:0.65rem 0.75rem; border:none; border-radius:8px; background:#222; color:#fff; cursor:pointer; font-weight:700; }
+    .expense-form .btn:disabled { opacity:0.6; cursor:not-allowed; }
+    .expense-form .hint { margin:0.5rem 0 0; font-size:0.85rem; color:#666; }
+
+    .expense-list { background:#fff; border:1px solid #e0e0e0; border-radius:10px; padding:1rem; }
+    .expense-list .item { display:flex; justify-content:space-between; align-items:flex-start; gap:0.75rem; padding:0.65rem 0; border-bottom:1px solid #f0f0f0; }
+    .expense-list .item:last-child { border-bottom:none; padding-bottom:0; }
+    .expense-list .name { font-weight:700; color:#111; margin:0; }
+    .expense-list .meta { font-size:0.82rem; color:#666; margin:0.1rem 0 0 0; }
+    .expense-list .right { text-align:right; }
+    .expense-list .amt { font-weight:800; color:#111; margin:0; }
+    .expense-list .ded { font-size:0.82rem; color:#666; margin:0.1rem 0 0 0; }
+    .expense-list .remove { margin-top:0.35rem; background:transparent; border:1px solid #dcdcdc; border-radius:6px; padding:0.25rem 0.5rem; cursor:pointer; font-weight:700; color:#111; }
+
+    .level { background:#f9f9f9; border:1px solid #e0e0e0; border-radius:10px; padding:1rem; }
+    .bar { height:12px; background:#e9e9e9; border-radius:999px; overflow:hidden; }
+    .bar > div { height:100%; width:0%; background:#222; border-radius:999px; transition: width 200ms ease; }
+    .level .row { display:flex; justify-content:space-between; gap:0.75rem; margin-top:0.6rem; font-size:0.9rem; color:#222; }
+    .level .row strong { color:#111; }
+    .level .small { margin-top:0.6rem; font-size:0.85rem; color:#666; }
+
+    .disclaimer { background:#f7f7f7; border-left:4px solid #222; padding:1rem; border-radius:8px; border:1px solid #dcdcdc; }
+  </style>
+</head>
+<body class="is-preload">
+
+  <div id="main">
+    <!-- Breadcrumb Navigation -->
+    <nav id="breadcrumb" style="background:#f9f9f9;padding:0.75rem;border-bottom:none;margin-bottom:0;">
+      <div style="max-width:900px;margin:0 auto;font-size:0.9rem;">
+        <a href="../index.html">Home</a> <span style="color:#999;margin:0 0.5rem;">/</span>
+        <a href="index.html">Resources</a> <span style="color:#999;margin:0 0.5rem;">/</span>
+        <span style="color:#666;">ZZP Personal Returns & Expenses</span>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="blog-post-header" style="padding:0;margin:0;border:none;">
+      <div style="max-width:900px;margin:0 auto;">
+        <div class="blog-post-meta" style="margin-bottom:0;display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap;color:#333;">
+          <span class="blog-post-read-time">7 min read</span>
+        </div>
+        <h1 style="margin:0;font-size:2.2rem;color:#000;">Filing Personal Returns as a ZZP: What expenses can you claim?</h1>
+        <div style="margin-top:0.35rem;color:#666;font-size:0.95rem;display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+          <strong style="color:#333;">Tags:</strong>
+          <span>ZZP</span><span style="color:#999;">•</span>
+          <span>Income tax</span><span style="color:#999;">•</span>
+          <span>Expenses</span>
+        </div>
+      </div>
+    </section>
+
+    <article class="blog-post-article">
+
+      <section class="blog-section">
+        <div class="disclaimer">
+          <p style="margin:0;"><strong>Disclaimer:</strong> This is practical guidance, not legal/tax advice. Deductibility depends on facts (business purpose, documentation, reasonableness, mixed private use) and the specific Dutch rules that apply to you.</p>
+        </div>
+      </section>
+
+      <section class="blog-section" id="what-is-zzp">
+        <h2>First: what is a ZZP in the Netherlands?</h2>
+        <p><strong>ZZP (zelfstandige zonder personeel)</strong> is not a separate legal entity by itself. In most cases, you operate as an <strong>eenmanszaak</strong> (sole proprietorship) and you are taxed as a person.</p>
+        <p>That means your ZZP profit or loss is reported via the <strong>same Belastingdienst portal</strong> as your personal income tax return, and your business result is <strong>merged with other personal income</strong> (like salary) to determine the final tax outcome.</p>
+
+        <div class="mini-kpi" style="margin-top:1rem;">
+          <div class="kpi">
+            <p class="label">Legal separation</p>
+            <p class="value">No (usually)</p>
+          </div>
+          <div class="kpi">
+            <p class="label">Where you file</p>
+            <p class="value">Personal income tax return</p>
+          </div>
+          <div class="kpi">
+            <p class="label">How it’s taxed</p>
+            <p class="value">Business profit/loss + salary</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="flow-graphic">
+        <h2>How the “merge” works (simple mental model)</h2>
+        <div class="graphic-card">
+          <div class="svg-wrap" aria-label="Income flow from ZZP to personal return">
+            <svg viewBox="0 0 980 260" role="img">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="#f6f6f6"/>
+                  <stop offset="1" stop-color="#ffffff"/>
+                </linearGradient>
+              </defs>
+              <rect x="10" y="10" width="960" height="240" rx="16" fill="url(#g1)" stroke="#e0e0e0"/>
+              <text x="40" y="55" font-size="22" fill="#111" font-weight="700">Your year</text>
+
+              <rect x="40" y="85" width="260" height="120" rx="14" fill="#fff" stroke="#dcdcdc"/>
+              <text x="70" y="125" font-size="18" fill="#111" font-weight="700">ZZP income &amp; costs</text>
+              <text x="70" y="152" font-size="14" fill="#666">Revenue − expenses = profit/loss</text>
+
+              <rect x="360" y="85" width="260" height="120" rx="14" fill="#fff" stroke="#dcdcdc"/>
+              <text x="390" y="125" font-size="18" fill="#111" font-weight="700">Other income</text>
+              <text x="390" y="152" font-size="14" fill="#666">Salary, benefits, etc.</text>
+
+              <rect x="680" y="70" width="250" height="150" rx="14" fill="#222"/>
+              <text x="705" y="120" font-size="18" fill="#fff" font-weight="700">Personal tax return</text>
+              <text x="705" y="148" font-size="14" fill="#eee">One portal, one outcome</text>
+              <text x="705" y="175" font-size="14" fill="#eee">Total income → tax</text>
+
+              <path d="M 300 145 C 320 145, 330 145, 350 145" stroke="#222" stroke-width="3" fill="none"/>
+              <polygon points="350,145 340,140 340,150" fill="#222"/>
+
+              <path d="M 620 145 C 640 145, 650 145, 670 145" stroke="#222" stroke-width="3" fill="none"/>
+              <polygon points="670,145 660,140 660,150" fill="#222"/>
+
+              <text x="40" y="232" font-size="13" fill="#666">Tip: loss years can matter — they may reduce your total taxable result depending on your situation.</text>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="govt-benefits">
+        <h2>Government benefits you may be able to claim as a ZZP</h2>
+        <p>When the Belastingdienst sees your business result as <strong>winst uit onderneming</strong>, there are common “benefit levers” that can lower your taxable income in Box 1 (depending on your situation and eligibility).</p>
+
+        <div class="card-neutral" style="margin-top:1rem;">
+          <h3 style="margin-top:0;">Common ones to check</h3>
+          <ul style="margin:0;padding-left:1.1rem;line-height:1.55;color:#333;">
+            <li><strong>Ondernemersaftrek</strong> (incl. <strong>zelfstandigenaftrek</strong> and <strong>startersaftrek</strong> if you qualify)</li>
+            <li><strong>MKB-winstvrijstelling</strong> (a percentage exemption applied after ondernemersaftrek)</li>
+            <li><strong>VAT choices</strong> like the <strong>KOR</strong> (small business scheme) if your turnover stays under the threshold (trade-off: simpler VAT vs. losing VAT input credits)</li>
+            <li><strong>Limited deductibility rules</strong> for certain categories like representation costs (there’s a 2026 threshold, with an 80% alternative for income-tax entrepreneurs)</li>
+          </ul>
+          <p style="margin:0.9rem 0 0 0;">If you want the full “numbers + examples” view, use the <a href="benefit-jar-calculator.html"><strong>Netherlands Tax Benefits Calculator (Benefit Jar)</strong></a> — those benefits are explained there in more detail.</p>
+          <p style="margin:0.5rem 0 0 0;font-size:0.9rem;color:#666;">Official references: KVK explains the main deductions and rates for 2026 (<a href="https://www.kvk.nl/geldzaken/inkomstenbelasting-voor-ondernemers/" target="_blank" rel="noreferrer">income tax for entrepreneurs</a>) and gives an overview of schemes/deductions (<a href="https://www.kvk.nl/geldzaken/minder-belasting-betalen/" target="_blank" rel="noreferrer">pay less tax via deductions</a>). For the 2026 limited-deductibility threshold and 80% alternative, see Belastingdienst: <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/veranderingen-inkomstenbelasting-2026/drempel-beperkt-aftrekbare-kosten-2026" target="_blank" rel="noreferrer">drempel beperkt aftrekbare kosten 2026</a>.</p>
+        </div>
+      </section>
+
+      <section class="blog-section" id="zero-revenue">
+        <h2>Can you claim expenses with zero revenue?</h2>
+        <p><strong>Yes — absolutely.</strong> Business is not only “revenue.” Early-stage work often looks like lead generation, marketing, portfolio building, tooling, research, networking, and searching for clients.</p>
+        <p>It’s normal to incur costs before your first invoice. Those costs can still be business-related and can be claimed (assuming they are properly documented and linked to the business purpose).</p>
+
+        <div class="graphic-card" style="margin-top:1rem;">
+          <div class="svg-wrap" aria-label="Timeline: expenses often come before revenue">
+            <svg viewBox="0 0 980 240" role="img">
+              <rect x="10" y="10" width="960" height="220" rx="16" fill="#fff" stroke="#e0e0e0"/>
+              <text x="40" y="55" font-size="20" fill="#111" font-weight="700">Reality check</text>
+              <text x="40" y="80" font-size="14" fill="#666">Expenses can appear before the first euro of revenue.</text>
+
+              <line x1="70" y1="140" x2="910" y2="140" stroke="#dcdcdc" stroke-width="6" stroke-linecap="round"/>
+
+              <circle cx="150" cy="140" r="14" fill="#222"/>
+              <text x="150" y="170" font-size="13" fill="#111" text-anchor="middle" font-weight="700">Research</text>
+
+              <circle cx="330" cy="140" r="14" fill="#222"/>
+              <text x="330" y="170" font-size="13" fill="#111" text-anchor="middle" font-weight="700">Marketing</text>
+
+              <circle cx="510" cy="140" r="14" fill="#222"/>
+              <text x="510" y="170" font-size="13" fill="#111" text-anchor="middle" font-weight="700">Lead gen</text>
+
+              <circle cx="690" cy="140" r="14" fill="#222"/>
+              <text x="690" y="170" font-size="13" fill="#111" text-anchor="middle" font-weight="700">First client</text>
+
+              <circle cx="850" cy="140" r="14" fill="#222"/>
+              <text x="850" y="170" font-size="13" fill="#111" text-anchor="middle" font-weight="700">Revenue</text>
+
+              <rect x="60" y="105" width="520" height="28" rx="14" fill="#f2f2f2" stroke="#e0e0e0"/>
+              <rect x="60" y="105" width="470" height="28" rx="14" fill="#222"/>
+              <text x="320" y="124" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Costs happening here</text>
+              <text x="720" y="124" font-size="13" fill="#111" font-weight="700">…revenue later</text>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="not-always-100">
+        <h2>But are expenses always 100% deductible?</h2>
+        <p><strong>Not always.</strong> Deductibility is guided by compliance rules and the nature of the cost — especially when there is a personal element (mixed use) or the rules restrict the deduction.</p>
+        <p>Example: <strong>your lunch alone at the office</strong> isn’t treated the same as <strong>a team lunch or a client meeting</strong>. The “context” changes how it’s classified and what portion is accepted.</p>
+
+        <div class="card-neutral" style="margin-top:1rem;">
+          <h3 style="margin-top:0;">A simple rule of thumb</h3>
+          <ul style="margin:0;padding-left:1.1rem;line-height:1.55;color:#333;">
+            <li><strong>Business purpose + evidence</strong> matters more than the label of the expense.</li>
+            <li><strong>Mixed private use</strong> usually means you claim a portion, not 100%.</li>
+            <li><strong>Representation/food</strong> often has specific limitations and expectations around documentation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="blog-section" id="compliance-note">
+        <h2>Important compliance note (please don’t “force” personal costs into business)</h2>
+        <div class="disclaimer">
+          <p style="margin:0;"><strong>Only claim strictly business expenses.</strong> Belastingdienst is clear that you may deduct only costs made for the business interests of your enterprise, within reasonable bounds, and that mixed costs are only deductible for the business portion. Costs with no business character are not deductible.</p>
+          <p style="margin:0.7rem 0 0 0;">Trying to present personal expenses as business expenses is <strong>not allowed</strong> and can lead to corrections and penalties if checked. When in doubt: document the business purpose and claim only the business share.</p>
+          <p style="margin:0.7rem 0 0 0;font-size:0.9rem;color:#444;">
+            Read the official guidance:
+            <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/inkomstenbelasting_voor_ondernemers/zakelijke_kosten/zakelijke_kosten" target="_blank" rel="noreferrer">Belastingdienst — Zakelijke kosten</a>
+            and
+            <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/inkomstenbelasting_voor_ondernemers/zakelijke_kosten/zakelijk_of_prive" target="_blank" rel="noreferrer">Belastingdienst — Zakelijk of privé?</a>.
+            KVK also summarizes the same principle: costs must have a business purpose and you must be able to prove them (<a href="https://www.kvk.nl/geldzaken/inkomstenbelasting-voor-ondernemers/" target="_blank" rel="noreferrer">KVK — income tax for entrepreneurs</a>).
+          </p>
+        </div>
+      </section>
+
+      <section class="blog-section" id="interactive-tool">
+        <h2>Interactive: build your expense list and see the “claimability level” change</h2>
+        <div class="expense-tool">
+          <h3>Expense sanity-check tool (educational)</h3>
+          <p>Add a few typical ZZP costs. You’ll see totals and an <strong>estimated deductible share</strong> (a rough level, not a tax calculation).</p>
+
+          <div class="expense-grid">
+            <div class="expense-form">
+              <div class="row">
+                <div>
+                  <label for="expName">Expense name</label>
+                  <input id="expName" type="text" placeholder="e.g., laptop, website, train to client" maxlength="60" />
+                </div>
+                <div>
+                  <label for="expAmount">Amount (€)</label>
+                  <input id="expAmount" type="number" min="0" step="1" placeholder="0" />
+                </div>
+              </div>
+              <div class="row" style="grid-template-columns: 1fr 1fr;">
+                <div>
+                  <label for="expType">Type</label>
+                  <select id="expType">
+                    <option value="tools" selected>Tools & software (often 100%)</option>
+                    <option value="marketing">Marketing & sales (often 100%)</option>
+                    <option value="travel">Business travel (often 100%)</option>
+                    <option value="home">Home office (usually partial/method-based)</option>
+                    <option value="meal">Meals/representation (often limited)</option>
+                    <option value="mixed">Mixed personal use (partial)</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="expShare">Estimated business share</label>
+                  <select id="expShare">
+                    <option value="1" selected>100%</option>
+                    <option value="0.75">75%</option>
+                    <option value="0.5">50%</option>
+                    <option value="0.25">25%</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn" id="addExpenseBtn" type="button">Add expense</button>
+              <p class="hint">This widget is intentionally conservative on food/representation and mixed-use. Claim <strong>only strictly business</strong> expenses and document: <strong>what</strong>, <strong>why</strong>, <strong>when</strong>, and keep receipts.</p>
+            </div>
+
+            <div class="level">
+              <div class="bar" aria-label="Claimability level bar"><div id="claimBar"></div></div>
+              <div class="row">
+                <span>Claimability level</span>
+                <strong id="claimLevel">0%</strong>
+              </div>
+              <div class="row">
+                <span>Total expenses</span>
+                <strong id="totalExpenses">€0</strong>
+              </div>
+              <div class="row">
+                <span>Estimated deductible amount</span>
+                <strong id="deductibleAmount">€0</strong>
+              </div>
+              <div class="small">“Level” = estimated deductible amount ÷ total expenses. Not tax advice.</div>
+            </div>
+          </div>
+
+          <div class="expense-list" style="margin-top:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:0.75rem;flex-wrap:wrap;">
+              <h3 style="margin:0;">Your list</h3>
+              <button id="clearAllBtn" type="button" class="remove" style="padding:0.4rem 0.65rem;">Clear all</button>
+            </div>
+            <div id="expenseItems" style="margin-top:0.35rem;"></div>
+            <div id="emptyState" style="margin-top:0.75rem;color:#666;">No expenses yet. Add one above.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section" id="practical-notes">
+        <h2>Practical checklist for claiming expenses</h2>
+        <div class="checklist">
+          <div class="checklist-item">
+            <span class="checkbox"></span>
+            <div>
+              <strong>Keep evidence</strong>
+              <p>Save invoices/receipts and a short note of business purpose (client name, project, trip purpose, etc.).</p>
+            </div>
+          </div>
+          <div class="checklist-item">
+            <span class="checkbox"></span>
+            <div>
+              <strong>Separate accounts (as much as possible)</strong>
+              <p>Business bank account and business card reduce mistakes and make audits easier.</p>
+            </div>
+          </div>
+          <div class="checklist-item">
+            <span class="checkbox"></span>
+            <div>
+              <strong>Be realistic with mixed-use</strong>
+              <p>If you also use the item privately (phone, laptop, home internet), claim a reasonable business share.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <h2>Official resources</h2>
+        <ul>
+          <li><a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/inkomstenbelasting_voor_ondernemers/zakelijke_kosten/zakelijke_kosten" target="_blank" rel="noreferrer">Belastingdienst — Zakelijke kosten</a> — what counts as deductible business costs</li>
+          <li><a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/inkomstenbelasting_voor_ondernemers/zakelijke_kosten/zakelijk_of_prive" target="_blank" rel="noreferrer">Belastingdienst — Zakelijk of privé?</a> — mixed costs and examples</li>
+          <li><a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/veranderingen-inkomstenbelasting-2026/drempel-beperkt-aftrekbare-kosten-2026" target="_blank" rel="noreferrer">Belastingdienst — Drempel beperkt aftrekbare kosten 2026</a> — threshold + 80% alternative for income-tax entrepreneurs</li>
+          <li><a href="https://www.kvk.nl/geldzaken/inkomstenbelasting-voor-ondernemers/" target="_blank" rel="noreferrer">KVK — Inkomstenbelasting voor ondernemers (updated Feb 2026)</a> — 2026 rates + ondernemersaftrek + mkb-winstvrijstelling</li>
+          <li><a href="https://www.kvk.nl/geldzaken/minder-belasting-betalen/" target="_blank" rel="noreferrer">KVK — Minder belasting betalen via regelingen en aftrekposten (updated Feb 2026)</a> — overview of schemes (KOR, investing, etc.)</li>
+          <li><a href="https://business.gov.nl/" target="_blank" rel="noreferrer">business.gov.nl</a> — regulation summaries in English</li>
+          <li><a href="https://www.kvk.nl/en/" target="_blank" rel="noreferrer">KVK</a> — entrepreneurship info & registration</li>
+        </ul>
+      </section>
+
+      <section class="blog-section">
+        <h2>Need help?</h2>
+        <p>If you want a quick review of your situation (ZZP + salary, first-year expenses, and what’s worth tracking), you can book a call.</p>
+        <ul class="actions special" style="margin-top:1rem;">
+          <li><a href="../booking.html" class="button primary">Book a call</a></li>
+          <li><a href="index.html" class="button">Back to Resources</a></li>
+        </ul>
+      </section>
+
+      <section id="related-articles" class="related-articles" style="margin-top:3rem;">
+        <h2>You Might Also Like</h2>
+        <div class="related-grid">
+          <article class="related-card">
+            <h3><a href="business-starter-2026.html">2026 Business Starter Kit: Your Netherlands Entrepreneur Roadmap</a></h3>
+            <a href="business-starter-2026.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3><a href="benefit-jar-calculator.html">Netherlands Tax Benefits Calculator: See Your Real Savings</a></h3>
+            <a href="benefit-jar-calculator.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3><a href="30-day-action-plan.html">30-Day Action Plan: Launch Your Netherlands Business Right</a></h3>
+            <a href="30-day-action-plan.html" class="related-read-more">Read more →</a>
+          </article>
+          <article class="related-card">
+            <h3>ESG in Real Estate PE: Investment Strategy Framework</h3>
+            <span class="coming-soon-label">Coming Soon</span>
+          </article>
+        </div>
+      </section>
+
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="copyright">
+        <li>&copy; 2025</li>
+        <li><a href="index.html">Resources</a></li>
+        <li><a href="../booking.html">Booking</a></li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP | Purvi Sankhla</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.poptrox.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+
+  <script>
+    const WEIGHTS = {
+      tools: 1.0,
+      marketing: 1.0,
+      travel: 1.0,
+      home: 0.6,
+      meal: 0.35,
+      mixed: 0.5
+    };
+
+    /** @type {Array<{id:string,name:string,amount:number,type:string,share:number}>} */
+    let expenses = [];
+
+    function formatEUR(n) {
+      return '€' + (n || 0).toLocaleString('nl-NL', { maximumFractionDigits: 0 });
+    }
+
+    function clamp01(x) { return Math.max(0, Math.min(1, x)); }
+
+    function computeDeductibleAmount() {
+      return expenses.reduce((sum, e) => {
+        const base = (WEIGHTS[e.type] ?? 0.6);
+        const share = (typeof e.share === 'number' ? e.share : 1);
+        return sum + (e.amount * base * share);
+      }, 0);
+    }
+
+    function computeTotalAmount() {
+      return expenses.reduce((sum, e) => sum + e.amount, 0);
+    }
+
+    function render() {
+      const total = computeTotalAmount();
+      const deductible = computeDeductibleAmount();
+      const level = total > 0 ? clamp01(deductible / total) : 0;
+
+      document.getElementById('totalExpenses').textContent = formatEUR(total);
+      document.getElementById('deductibleAmount').textContent = formatEUR(deductible);
+      document.getElementById('claimLevel').textContent = Math.round(level * 100) + '%';
+      document.getElementById('claimBar').style.width = Math.round(level * 100) + '%';
+
+      const listEl = document.getElementById('expenseItems');
+      const emptyEl = document.getElementById('emptyState');
+      listEl.innerHTML = '';
+
+      if (expenses.length === 0) {
+        emptyEl.style.display = 'block';
+        return;
+      }
+      emptyEl.style.display = 'none';
+
+      expenses.forEach((e) => {
+        const base = (WEIGHTS[e.type] ?? 0.6);
+        const est = e.amount * base * e.share;
+        const niceType = {
+          tools: 'Tools & software',
+          marketing: 'Marketing & sales',
+          travel: 'Business travel',
+          home: 'Home office',
+          meal: 'Meals/representation',
+          mixed: 'Mixed use'
+        }[e.type] || e.type;
+
+        const item = document.createElement('div');
+        item.className = 'item';
+        item.innerHTML = `
+          <div>
+            <p class="name">${escapeHtml(e.name)}</p>
+            <p class="meta">${niceType} • business share ${Math.round(e.share * 100)}%</p>
+          </div>
+          <div class="right">
+            <p class="amt">${formatEUR(e.amount)}</p>
+            <p class="ded">Est. deductible: ${formatEUR(est)}</p>
+            <button class="remove" type="button" data-id="${e.id}">Remove</button>
+          </div>
+        `;
+        listEl.appendChild(item);
+      });
+
+      listEl.querySelectorAll('button.remove[data-id]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-id');
+          expenses = expenses.filter(x => x.id !== id);
+          render();
+        });
+      });
+    }
+
+    function escapeHtml(str) {
+      return String(str || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function addExpense() {
+      const name = (document.getElementById('expName').value || '').trim();
+      const amount = parseFloat(document.getElementById('expAmount').value);
+      const type = document.getElementById('expType').value;
+      const share = parseFloat(document.getElementById('expShare').value);
+
+      if (!name || !Number.isFinite(amount) || amount <= 0) return;
+
+      expenses.unshift({
+        id: String(Date.now()) + '_' + Math.random().toString(16).slice(2),
+        name,
+        amount: Math.round(amount),
+        type,
+        share: Number.isFinite(share) ? share : 1
+      });
+
+      document.getElementById('expName').value = '';
+      document.getElementById('expAmount').value = '';
+      render();
+    }
+
+    document.getElementById('addExpenseBtn').addEventListener('click', addExpense);
+    document.getElementById('clearAllBtn').addEventListener('click', () => { expenses = []; render(); });
+    document.getElementById('expName').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); addExpense(); }
+    });
+    document.getElementById('expAmount').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); addExpense(); }
+    });
+
+    // Seed examples to make the page feel alive.
+    expenses = [
+      { id: 'seed1', name: 'Website hosting', amount: 120, type: 'tools', share: 1 },
+      { id: 'seed2', name: 'Train to client meeting', amount: 42, type: 'travel', share: 1 }
+    ];
+    render();
+  </script>
+
+</body>
+</html>
